@@ -10,7 +10,7 @@ public class FileInOut {
 
 	public ArrayList<Player> getPlayer() throws IOException {
 
-		String pathname = "C:\\Class\\JavaClass\\javaPro\\src\\tennis\\res\\tennisGame.txt";
+		String pathname = "C:\\Class\\JavaClass\\tennis_game_board\\src\\tennis\\res\\tennisGame.txt";
 		File f = new File(pathname);
 		ArrayList<Player> list = new ArrayList<Player>();
 
